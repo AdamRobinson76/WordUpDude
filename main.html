@@ -5,54 +5,36 @@
     <link href="../wordup/css/style.css" rel="stylesheet" type="text/css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="../wordup/resources/images/Icon-Small.png" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <title>WordUp Dude</title>
   </head>
 
   <body>
-    <style>
-    .navbar a{
-      color: rgb(54, 107, 220);
-      text-decoration: none;
-    }
-    .navbar a:hover{
-      color: rgb(248, 209, 123);
-      text-decoration: none;
-    }
 
-    /* Main Header Google Play link */
-
-    .main {
-      background-color: rgb(104, 138, 196);
-      align-content: center;
-    }
-
-
-
-    /* Tutorial Section */
-    .vid-container  {
-      margin: 2rem 10rem;
-    }
-</style>
     <!--Navigation for site-->
     <header>
       <nav>
         <ul class="navbar navbar-fixed-top" role="presentation">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Tutorial</a></li>
-          <li><a href="#">How to Play</a></li>
-          <li><a href="#">Strategy</a></li>
-          <li><a href="#">Scoring</a></li>
+          <li><a href="#Tutorial">Tutorial</a></li>
+          <li><a href="#How to Play">How to Play</a></li>
+          <li><a href="#Scoring">Scoring</a></li>
+          <li><a href="#Strategy">Strategy</a></li>
+          <li><a href="https://www.facebook.com/Word-Up-Dude-902135293153100/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCafSzZK3-1riAZVMWM5IVvQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+          <li><a href='https://play.google.com/store/apps/details?id=com.gmail.tneilgardner.WordUpDude&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="google button img-responsive"
+            alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width= 150px/></a></li>
         </ul>
       </nav>
     </header>
     <!--Main Image and link to download-->
     <div class="main">
       <h1 class="text-center">WordUp Dude</h1>
-      <a href='https://play.google.com/store/apps/details?id=com.gmail.tneilgardner.WordUpDude&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="google button img-responsive" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width= 150px/></a>
     </div>
     <!--Tutorial Section-->
     <div class="container-fluid">
       <div class="text-center">
+        <div id="Tutorial">
       <h1>Tutorial</h1>
       </div>
       <div class="vid container">
@@ -62,23 +44,27 @@
       </div>
       </div>
       </div>
+    </div>
 
       <!--How to Play, Strategy and Scoring Section-->
       <div class="container-fluid">
-
+        <div id="How to Play">
           <h2 class="text-center">How to Play</h2>
+        </div>
           <p>Starting with 5 letters in your rack, beat the clock by making free format words that all connect in the space above the tile rack. All two letter and larger words down or across must be valid words.
             When all tiles have been used, select the <strong>"check"</strong> button to get two additional tiles, and a bonue 10 seconds.
             If you cannot use all letters, select <strong>"Help"</strong> to get 2 additional tiles to use. You do not get bonus time. Select letters by touching them with your finger and sliding the letter to a location desired.
             Letters will retreat to their original location if not placed in a legal space. Moe the board itselfif you need room to add letters by touching the board, and sliding it up, down, left, or right.
             If you don't like the letters, you can select <strong>"quit"</strong> at any time, and return to the game selection page. If you <strong>"quit"</strong> a "Challenge game", you will score the words made to that point, but forfeit any time bonus.</p>
-            <h2>Scoring</h2>
+            <div id="Scoring">
+            <h2 class="text-center">Scoring</h2>
+          </div>
             <p>Scoring is a combiantion of word length, and letter value, with a bonus given for the number of seconds left when the game has been completed. A score is awarded for each unique word made during the life
               of the game. If you make the word 'dog' you will not receive additional points by making it again, but you would make additional points by changing the word to 'God'. Letter tiles do not need to remain in their initial position after each play.
               If you <strong>"quit"</strong> a "Challenge game", you will score the words made to that point, but forfeit any time bonus.</p>
               <div class="row">
                 <div class="col-lg-6">
-                  <h6>Letter Values</h6>
+                  <h5>Letter Values</h5>
                   <p>1 - A, E, I, L, N, O, R, S, T</p><br />
                   <p>2 - D, G, U</p><br />
                   <p>3 - B, F, H, M, P, W, Y</p><br />
@@ -89,7 +75,7 @@
                   <p>10 - Q</p><br />
                 </div>
               <div class="col-lg-6">
-                <h6>Word Size Multipliers</h6>
+                <h5>Word Size Multipliers</h5>
                 <p>letters x multiplier</p><br />
                 <p>2 x 1</p><br />
                 <p>3 x 1</p><br />
@@ -103,7 +89,9 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-              <h6>Strategy</h6>
+            <div id="Strategy">
+              <h2 class="text-center">Strategy</h2>
+            </div>
               <p>The two main components to scoring are the creation of unique words, and the time bonus.
                 SInce time aloowed is increased by the 10 seconds when you successfully use all letterson the board,
                 this helps you increase your score and gives you more time to make creative and high scoring words. SInce
@@ -115,5 +103,16 @@
           </div>
         </div>
     </div>
+    <footer>
+      <div class="container-fluid">
+        <div class="credit">
+          <h6>WordUp Dude</h6>
+          <h6>©Tim Gardner</h6>
+          <p>Website Design by Adam Robinson</p>
+          <a href="https://www.facebook.com/Word-Up-Dude-902135293153100/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.youtube.com/channel/UCafSzZK3-1riAZVMWM5IVvQ" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

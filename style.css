@@ -1,5 +1,6 @@
 /* Universal Styles */
 
+
 /* Navigation Style */
 .navbar a{
   color: rgb(54, 107, 220);
@@ -21,4 +22,14 @@
 /* Tutorial Section */
 .vid-container  {
   margin: 2rem 10rem;
+}
+
+
+/* Footer Section */
+
+footer  {
+  margin: 3rem auto;
+}
+.credit a{
+  float: right;
 }
