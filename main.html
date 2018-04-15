@@ -62,29 +62,82 @@
             <p>Scoring is a combiantion of word length, and letter value, with a bonus given for the number of seconds left when the game has been completed. A score is awarded for each unique word made during the life
               of the game. If you make the word 'dog' you will not receive additional points by making it again, but you would make additional points by changing the word to 'God'. Letter tiles do not need to remain in their initial position after each play.
               If you <strong>"quit"</strong> a "Challenge game", you will score the words made to that point, but forfeit any time bonus.</p>
+            <!--Table for Scoring-->
               <div class="row">
                 <div class="col-lg-6">
-                  <h5>Letter Values</h5>
-                  <p>1 - A, E, I, L, N, O, R, S, T</p><br />
-                  <p>2 - D, G, U</p><br />
-                  <p>3 - B, F, H, M, P, W, Y</p><br />
-                  <p>4 - C, V</p><br />
-                  <p>5 - K, X</p><br />
-                  <p>6 - J</p><br />
-                  <p>8 - Z</p><br />
-                  <p>10 - Q</p><br />
+                  <table style="100%">
+                    <tr>
+                      <th>Letters</th>
+                      <th>Point Value</th>
+                    </tr>
+                    <tr>
+                      <td>A, E, I, L, N, O, R, S, T</td>
+                      <td> 1</td>
+                    </tr>
+                    <tr>
+                      <td>D, G, U</td>
+                      <td> 2</td>
+                    </tr>
+                    <tr>
+                      <td>B, F, H, M, P, W, Y</td>
+                      <td> 3</td>
+                    </tr>
+                    <tr>
+                      <td>C, V</td>
+                      <td> 4</td>
+                    </tr>
+                    <tr>
+                      <td>K, X</td>
+                      <td> 5</td>
+                    </tr>
+                    <tr>
+                      <td>J</td>
+                      <td> 6</td>
+                    </tr>
+                    <tr>
+                      <td>Z</td>
+                      <td> 8</td>
+                    </tr>
+                    <tr>
+                    <td>Q</td>
+                    <td> 10</td>
+                  </tr>
+                </table>
                 </div>
+                <!-- Table for word Multiplier-->
               <div class="col-lg-6">
                 <h5>Word Size Multipliers</h5>
-                <p>letters x multiplier</p><br />
-                <p>2 x 1</p><br />
-                <p>3 x 1</p><br />
-                <p>4 x 2</p><br />
-                <p>5 x 3</p><br />
-                <p>6 x 4</p><br />
-                <p>Example: first turn letters = AHERA<br />
+                <table>
+                  <tr>
+                    <th>Word Length</th>
+                    <th>Multiplier</th>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>4</td>
+                  </tr>
+                  <tr rowspan="2">
+                    <td colspan="2">Example: first turn letters = AHERA
               Make: 'Hear' and 'Ha' connected with the 'H'.<br />
-              'Hear' + 'Ha' = (3+1+1+1)*2 + (3+1) = 16</p>
+              'Hear' + 'Ha' = (3+1+1+1)*2 + (3+1) = 16</td>
+            </tr>
+              </table>
           </div>
         </div>
         <div class="row">

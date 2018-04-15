@@ -25,6 +25,32 @@
 }
 
 
+/* Scoring Section */
+
+/* Table Styles */
+
+th {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+table, th, td  {
+  border: 1px;
+  border-color: rgb(212, 213, 215);
+  border-style: solid;
+}
+td, th {
+  padding: 1rem;
+  font-family: serif;
+  text-align: center;
+}
+td {
+  text-align: center;
+}
+
+
+
 /* Footer Section */
 
 footer  {
