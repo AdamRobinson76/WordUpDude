@@ -3,32 +3,53 @@
   <head>
     <link href="../wordup/css/reset.css" rel="stylesheet" type="text/css">
     <link href="../wordup/css/style.css" rel="stylesheet" type="text/css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="../wordup/resources/images/Icon-Small.png" sizes="16x16" type="image/png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>WordUp Dude</title>
   </head>
-
   <body>
-
     <!--Navigation for site-->
     <header>
-      <nav>
-        <ul class="navbar navbar-fixed-top" role="presentation">
-          <li><a href="#">Home</a></li>
-          <li><a href="#Tutorial">Tutorial</a></li>
-          <li><a href="#How to Play">How to Play</a></li>
-          <li><a href="#Scoring">Scoring</a></li>
-          <li><a href="#Strategy">Strategy</a></li>
-          <li><a href="https://www.facebook.com/Word-Up-Dude-902135293153100/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="https://www.youtube.com/channel/UCafSzZK3-1riAZVMWM5IVvQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
-          <li><a href='https://play.google.com/store/apps/details?id=com.gmail.tneilgardner.WordUpDude&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="google button img-responsive"
-            alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width= 150px/></a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Tutorial">Tutorial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#How to Play">How to Play</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Strategy">Strategy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/Word-Up-Dude-902135293153100/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/channel/UCafSzZK3-1riAZVMWM5IVvQ" target="_blank"><i class="fab fa-youtube"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href='https://play.google.com/store/apps/details?id=com.gmail.tneilgardner.WordUpDude&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="google button img-responsive"
+                alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width= 150px/></a>
+              </li>
+            </ul>
+          </div>
       </nav>
     </header>
     <!--Main Image and link to download-->
-    <div class="main">
+    <div id="Home">
       <h1 class="text-center">WordUp Dude</h1>
     </div>
     <!--Tutorial Section-->
@@ -37,25 +58,25 @@
         <div id="Tutorial">
       <h1>Tutorial</h1>
       </div>
-      <div class="vid container">
-      <div class="embed-responsive embed-responsive-4by3">
-        <iframe class="embed-responsive-item" width="70%" height="auto" src="https://www.youtube.com/embed/sLB0kPCeAIk"
-        frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-      </div>
-      </div>
+        <div class="vid container">
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" width="70%" height="auto" src="https://www.youtube.com/embed/sLB0kPCeAIk"
+            frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
     </div>
 
       <!--How to Play, Strategy and Scoring Section-->
       <div class="container-fluid">
-        <div id="How to Play">
+        <div id="How-to-Play">
           <h2 class="text-center">How to Play</h2>
         </div>
           <p>Starting with 5 letters in your rack, beat the clock by making free format words that all connect in the space above the tile rack. All two letter and larger words down or across must be valid words.
-            When all tiles have been used, select the <strong>"check"</strong> button to get two additional tiles, and a bonue 10 seconds.
+            When all tiles have been used, select the <strong>"Check"</strong> button to get two additional tiles, and a bonue 10 seconds.
             If you cannot use all letters, select <strong>"Help"</strong> to get 2 additional tiles to use. You do not get bonus time. Select letters by touching them with your finger and sliding the letter to a location desired.
-            Letters will retreat to their original location if not placed in a legal space. Moe the board itselfif you need room to add letters by touching the board, and sliding it up, down, left, or right.
-            If you don't like the letters, you can select <strong>"quit"</strong> at any time, and return to the game selection page. If you <strong>"quit"</strong> a "Challenge game", you will score the words made to that point, but forfeit any time bonus.</p>
+            Letters will retreat to their original location if not placed in a legal space. Move the board itself if you need room to add letters by touching the board, and sliding it up, down, left, or right.
+            If you don't like the letters, you can select <strong>"Quit"</strong> at any time, and return to the game selection page. If you <strong>"Quit"</strong> a "Challenge game", you will score the words made to that point, but forfeit any time bonus.</p>
             <div id="Scoring">
             <h2 class="text-center">Scoring</h2>
           </div>
@@ -64,8 +85,8 @@
               If you <strong>"quit"</strong> a "Challenge game", you will score the words made to that point, but forfeit any time bonus.</p>
             <!--Table for Scoring-->
               <div class="row">
-                <div class="col-lg-6">
-                  <table style="100%">
+                <div class="col-lg-4 col-xl-4 col-m-6 col-sm-12">
+                  <table class="points">
                     <tr>
                       <th>Letters</th>
                       <th>Point Value</th>
@@ -104,9 +125,12 @@
                   </tr>
                 </table>
                 </div>
+              <div class="col-lg-4 col-xl-4 col-m-6 col-sm-12">
+                <img class="img-responsive" src="../wordup/resources/images/wordupdude1024-icon-resized.png" alt="Logo">
+              </div>
                 <!-- Table for word Multiplier-->
-              <div class="col-lg-6">
-                <h5>Word Size Multipliers</h5>
+              <div class="col-lg-4 col-xl-4 col-m-6 col-sm-12">
+                <h5 class="text-center word-size">Word Size Multipliers</h5>
                 <table>
                   <tr>
                     <th>Word Length</th>
@@ -132,11 +156,16 @@
                     <td>6</td>
                     <td>4</td>
                   </tr>
-                  <tr rowspan="2">
-                    <td colspan="2">Example: first turn letters = AHERA
-              Make: 'Hear' and 'Ha' connected with the 'H'.<br />
-              'Hear' + 'Ha' = (3+1+1+1)*2 + (3+1) = 16</td>
-            </tr>
+                  <tr>
+                    <td>Example: first turn <br />
+                      letters = AHERA Make: <br />
+                      'Hear' and 'Ha' connected <br />
+                      with the 'H'.
+                    </td>
+                    <td>'Hear' + 'Ha' = <br />
+                      (3+1+1+1)*2 + (3+1) = 16
+                    </td>
+                  </tr>
               </table>
           </div>
         </div>
@@ -146,9 +175,9 @@
               <h2 class="text-center">Strategy</h2>
             </div>
               <p>The two main components to scoring are the creation of unique words, and the time bonus.
-                SInce time aloowed is increased by the 10 seconds when you successfully use all letterson the board,
-                this helps you increase your score and gives you more time to make creative and high scoring words. SInce
-                you score for each new unique word creatied, minor changes to an existing word can reap additional score.
+                SInce time allowed is increased by the 10 seconds when you successfully use all letterson the board,
+                this helps you increase your score and gives you more time to make creative and high scoring words. Since
+                you score for each new unique word created, minor changes to an existing word can reap additional score.
                 Just adding an "S" to a long word will allow you to score it again, and make even more points. When playing
                 a challenge game against another opponent, it is not necessary to complete the game by using all letters, but you will suffer
                 a point loss for missing that goal. Quitting a challenge game will also incur a point deduction. The deduction is a percentage
@@ -158,12 +187,23 @@
     </div>
     <footer>
       <div class="container-fluid">
-        <div class="credit">
-          <h6>WordUp Dude</h6>
-          <h6>©Tim Gardner</h6>
-          <p>Website Design by Adam Robinson</p>
-          <a href="https://www.facebook.com/Word-Up-Dude-902135293153100/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.youtube.com/channel/UCafSzZK3-1riAZVMWM5IVvQ" target="_blank"><i class="fab fa-youtube"></i></a>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-m-4 col-sm-4">
+            <h6>WordUp Dude</h6>
+            <h6>©Tim Gardner</h6>
+            <p>Website Design by Adam Robinson</p>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-m-4 col-sm-4">
+            <a href='https://play.google.com/store/apps/details?id=com.gmail.tneilgardner.WordUpDude&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="google button img-responsive"
+              alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width= 150px/>
+            </a>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-m-4 col-sm-4">
+            <a href="https://www.facebook.com/Word-Up-Dude-902135293153100/" target="_blank"><i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCafSzZK3-1riAZVMWM5IVvQ" target="_blank"><i class="fab fa-youtube"></i>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
