@@ -1,15 +1,19 @@
 /* Universal Styles */
+
 .explain {
   font-family: 'Oxygen', sans-serif;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
-/* Navigation Style */
 
+/* Navigation Style */
 
 /* Main Header Google Play link */
 
 #Home {
   margin-top: 6.5rem;
+  padding-top: 5rem;
 }
 /* Possible Header Layout
 #Home h1{
@@ -36,10 +40,36 @@ End Possible Header Layout */
   }
 
 
+#Home h6  {
+  margin-top: 3rem;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+/*  Media Rules for Heading  */
+
+  @media screen and (max-width: 480px)  {
+    #Home p{
+      font-size: 2.75rem;
+    }
+    .explain  {
+      font-size: 1.25rem;
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 1200px) {
+    #Home p{
+      font-size: 3.5rem;
+    }
+  }
 
 /* Tutorial Section */
 .vid-container  {
   margin: 2rem 10rem;
+}
+
+#Tutorial {
+  padding-top: 5rem;
 }
 
 #Tutorial h1  {
@@ -53,6 +83,7 @@ End Possible Header Layout */
 /* How to Play */
 #How-to-Play  {
   margin-top: 4rem;
+  padding-top: 8rem;
 }
 
 #How-to-Play h2 {
@@ -66,26 +97,31 @@ End Possible Header Layout */
 /* Scoring Section */
 #Scoring  {
   margin-top: 5rem;
+  padding-top: 6rem;
 }
 
 #Scoring h2 {
   font-family: 'Cinzel', serif;
   font-weight: bold;
   font-size: 3rem;
+
 }
 
 /*   Strategy     */
 
 #Strategy {
   margin-top: 5rem;
+  padding-top: 6rem;
 }
 
 #Strategy h2  {
   font-family: 'Cinzel', serif;
   font-weight: bold;
   font-size: 3rem;
+
 }
 /* Table Styles */
+
 
 th {
   font-size: 1rem;
@@ -101,20 +137,44 @@ table, th, td  {
 }
 
 td, th {
-  padding: .5rem;
+  padding: .25rem;
   text-align: center;
 }
 
+.value  {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
 
 .points {
 text-align: center;
 }
-/*
-.word-size  {
-  text-align: center;
+
+
+
+
+/* Game Modes */
+
+#Game-Modes h2  {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: 3rem;
+  padding-top: 6rem;
+}
+
+.game-modes h5  {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.game-modes p {
   font-family: 'Oxygen', sans-serif;
 }
-*/
+
+/* Competitive Games */
+
 
 /* Footer Section */
 
@@ -125,4 +185,18 @@ footer  {
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
   display: block;
+}
+
+/* Footer Media Rules */
+@media screen and (max-width: 480px)  {
+  footer  {
+    font-size: .75rem;
+  }
+}
+
+/* Search Page */
+
+
+form  {
+  padding-top: 7rem;
 }
