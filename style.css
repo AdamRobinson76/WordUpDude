@@ -1,9 +1,14 @@
 /* Universal Styles */
+.container  {
+  width: 100%;
+}
+
 
 .explain {
   font-family: 'Oxygen', sans-serif;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
+  line-height: 1.7rem;
 }
 
 
@@ -12,8 +17,8 @@
 /* Main Header Google Play link */
 
 #Home {
-  margin-top: 6.5rem;
-  padding-top: 5rem;
+  margin-top: 4.5rem;
+
 }
 /* Possible Header Layout
 #Home h1{
@@ -23,6 +28,7 @@
   font-weight: bold;
   }
 End Possible Header Layout */
+
 
   #Home p {
     display : inline-block;
@@ -64,12 +70,10 @@ End Possible Header Layout */
   }
 
 /* Tutorial Section */
-.vid-container  {
-  margin: 2rem 10rem;
-}
+
 
 #Tutorial {
-  padding-top: 5rem;
+ padding-top: .1rem;
 }
 
 #Tutorial h1  {
@@ -82,8 +86,7 @@ End Possible Header Layout */
 
 /* How to Play */
 #How-to-Play  {
-  margin-top: 4rem;
-  padding-top: 8rem;
+  padding-top: 3.5rem;
 }
 
 #How-to-Play h2 {
@@ -96,8 +99,7 @@ End Possible Header Layout */
 
 /* Scoring Section */
 #Scoring  {
-  margin-top: 5rem;
-  padding-top: 6rem;
+  padding-top: 3.4rem;
 }
 
 #Scoring h2 {
@@ -110,8 +112,7 @@ End Possible Header Layout */
 /*   Strategy     */
 
 #Strategy {
-  margin-top: 5rem;
-  padding-top: 6rem;
+  padding-top: 3.4rem;
 }
 
 #Strategy h2  {
@@ -146,10 +147,21 @@ td, th {
   padding-right: 2.25rem;
 }
 
+
 .points {
 text-align: center;
 }
 
+/* Media Rules for table/carousel Section */
+@media screen and (max-width: 480px) {
+  #myCarousel {
+    display: none;
+  }
+  .points {
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+  }
+}
 
 
 
@@ -159,8 +171,7 @@ text-align: center;
   font-family: 'Cinzel', serif;
   font-weight: bold;
   font-size: 3rem;
-  margin-top: 3rem;
-  padding-top: 6rem;
+  padding-top: 3.3rem;
 }
 
 .game-modes h5  {
